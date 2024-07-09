@@ -1,0 +1,63 @@
+[20:56:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:56:51] [ServerMain/ERROR]: Failed to start the minecraft server
+java.io.IOException: 다른 프로세스가 파일의 한 부분을 잠갔으므로, 프로세스가 해당 파일을 액세스할 수 없습니다
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.FileDispatcherImpl.write(FileDispatcherImpl.java:75) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:81) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:303) ~[?:?]
+	at axt.a(SourceFile:37) ~[server-1.21.jar:?]
+	at erf$c.<init>(SourceFile:374) ~[server-1.21.jar:?]
+	at erf.d(SourceFile:353) ~[server-1.21.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:137) ~[server-1[20:57:25] [User Authenticator #1/INFO]: UUID of player MochaRhyme51551 is 5d25a4ea-83b6-42fe-b76e-b74329de91d5
+[20:57:27] [Server thread/INFO]: MochaRhyme51551[/25.19.80.20:51144] logged in with entity id 205 at (-11.186983980093206, 63.0, -54.4107062259449)
+[20:57:27] [Server thread/INFO]: MochaRhyme51551 joined the game
+[20:57:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2110ms or 42 ticks behind
+[20:57:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4977ms or 99 ticks behind
+[20:57:58] [User Authenticator #2/INFO]: UUID of player apie0711 is 09f7d64c-c6be-4888-b870-8a3d906f61bf
+[20:57:59] [Server thread/INFO]: apie0711[/25.23.35.212:51888] logged in with entity id 545 at (4.138992352548034, 74.0, -84.20461670686159)
+[20:57:59] [Server thread/INFO]: apie0711 joined the game
+[20:58:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[21:01:35] [Server thread/INFO]: <MochaRhyme51551> java -Xms4096M -Xmx4096M --add-modules=jdk.incubator.vector -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -X
+[21:02:35] [Server thread/INFO]: <MochaRhyme51551> java -Xms4096M -Xmx4096M -jar server.jat
+[21:02:40] [Server thread/INFO]: <MochaRhyme51551> r
+[21:03:08] [Server thread/INFO]: <MochaRhyme51551> -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresho
+[21:06:58] [Server thread/INFO]: Villager cmk['Villager'/189, l='ServerLevel[world]', x=40.16, y=59.97, z=-40.70] died, message: 'Villager was squished too much'
+[21:09:40] [Server thread/INFO]: <apie0711> fddfdsff
+[21:09:58] [Server thread/INFO]: <apie0711> #include <stdio.h>
+[21:10:04] [Server thread/INFO]: <apie0711> tt
+[21:10:06] [Server thread/INFO]: <apie0711> tttt
+[21:10:08] [Server thread/INFO]: <MochaRhyme51551> p
+[21:10:13] [Server thread/INFO]: <apie0711> p
+[21:15:21] [Server thread/INFO]: apie0711 lost connection: Disconnected
+[21:15:21] [Server thread/INFO]: apie0711 left the game
+[21:15:23] [User Authenticator #3/INFO]: UUID of player apie0711 is 09f7d64c-c6be-4888-b870-8a3d906f61bf
+[21:15:24] [Server thread/INFO]: apie0711[/25.23.35.212:51914] logged in with entity id 7653 at (-6.260073534540061, 72.5, -74.87550150889233)
+[21:15:24] [Server thread/INFO]: apie0711 joined the game
+[21:22:38] [Server thread/INFO]: Villager cmk['Villager'/157, l='ServerLevel[world]', x=40.70, y=59.00, z=-40.70] died, message: 'Villager was squished too much'
+[21:22:39] [Server thread/INFO]: Villager cmk['Villager'/183, l='ServerLevel[world]', x=40.17, y=59.55, z=-40.70] died, message: 'Villager was squished too much'
+[21:22:43] [Server thread/INFO]: <MochaRhyme51551> MochRhyme51551
+[21:35:40] [Server thread/INFO]: Locating element minecraft:swamp_hut took 1726 ms
+[21:36:14] [Server thread/INFO]: <MochaRhyme51551> x 3392 z -3552
+[21:46:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2108ms or 42 ticks behind
+[21:54:49] [Server thread/INFO]: MochaRhyme51551 has made the advancement [Cover Me with Diamonds]
+[21:54:59] [Server thread/INFO]: apie0711 has made the advancement [Cover Me with Diamonds]
+[22:06:44] [Server thread/INFO]: Villager cmk['Villager'/184, l='ServerLevel[world]', x=40.32, y=59.00, z=-40.30] died, message: 'Villager was squished too much'
+[22:06:44] [Server thread/INFO]: Villager cmk['Villager'/164, l='ServerLevel[world]', x=40.28, y=59.58, z=-40.70] died, message: 'Villager was squished too much'
+[22:06:44] [Server thread/INFO]: Villager cmk['Villager'/173, l='ServerLevel[world]', x=40.11, y=59.10, z=-40.30] died, message: 'Villager was squished too much'
+[22:14:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[22:14:32] [Server thread/INFO]: MochaRhyme51551 lost connection: Disconnected
+[22:14:32] [Server thread/INFO]: MochaRhyme51551 left the game
+[22:14:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5441ms or 108 ticks behind
+[22:14:55] [Server thread/INFO]: Stopping the server
+[22:14:55] [Server thread/INFO]: Stopping server
+[22:14:55] [Server thread/INFO]: Saving players
+[22:14:55] [Server thread/INFO]: Saving worlds
+[22:14:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:14:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:14:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:14:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:14:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:14:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:14:56] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
